@@ -116,7 +116,7 @@ public boolean detectCycleDFS(String user, Set<String> visited, Set<String> stac
     		System.out.println("\nTransaction Graph (Text View):");
     		for (String user : adjList.keySet()) {
         		for (Transaction t : adjList.get(user)) {
-            			System.out.println(user + " -> " + t.receiver + " | $" + t.amount);
+            			System.out.println(user + " -> " + t.receiver + " | ₹" + t.amount);
         		}
     		}
 	}
