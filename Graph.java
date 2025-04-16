@@ -136,7 +136,7 @@ public class Graph {
     		System.out.println("\nTransaction Graph (Text View):");
     		for (String user : adjList.keySet()) {
         		for (Transaction t : adjList.get(user)) {
-            			System.out.println(user + " -> " + t.receiver + " | ₹" + t.amount);
+            			System.out.println(user + " -> " + t.receiver + " | Rs." + t.amount);
         		}
     		}
 	}
@@ -144,7 +144,7 @@ public class Graph {
 	// Allows updating the fraud threshold
 	public void setFraudThreshold(double newThreshold) {
     		this.fraudThreshold = newThreshold;
-    		System.out.println("Fraud threshold updated to ₹" + newThreshold);
+    		System.out.println("Fraud threshold updated to Rs." + newThreshold);
 	}
 
 	// Runs BFS fraud detection from all users in the graph
