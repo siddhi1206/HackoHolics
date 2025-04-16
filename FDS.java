@@ -83,7 +83,7 @@ public static void loadSampleData(Graph graph) {
     graph.addTransaction("C", "D", 4000, "2025-04-01 10:02:00");
     graph.addTransaction("D", "A", 5000, "2025-04-01 10:03:00"); // cycle
 
-    graph.addTransaction("X", "Y", 10000, "2025-04-01 11:00:00"); // high-value
+    graph.addTransaction("X", "Y", 15000, "2025-04-01 11:00:00"); // high-value
     graph.addTransaction("P", "Q", 700, "2025-04-01 12:00:00");   // normal
 
     System.out.println("Sample dataset loaded.");
