@@ -16,6 +16,6 @@ Compilation:
 javac -cp ".;sqlite-jdbc-3.49.1.0.jar" FDS.java DatabaseHelper.java Graph.java Transaction.java FDSGUI.java
 Run:
 java -cp ".;sqlite-jdbc-3.49.1.0.jar" FDSGUI
-<br>
+<br><br>
 CHECK OUT THE OUTPUT VIDEO
 https://drive.google.com/file/d/1IK0hqi4ACZWLvbBkxSlfmS0ghLqEFqLH/view?usp=drive_link
